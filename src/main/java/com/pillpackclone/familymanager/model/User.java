@@ -17,8 +17,7 @@ public class User implements Serializable { // + transforms this class into diff
 
     public User() {}
 
-    public User(Long id, String name, String email, String phoneNumber, String imageUrl) {
-        this.id = id;
+    public User(String name, String email, String phoneNumber, String imageUrl) {
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
