@@ -1,5 +1,6 @@
 package com.pillpackclone.familymanager.service;
 
+import com.pillpackclone.familymanager.exception.UserNotFoundException;
 import com.pillpackclone.familymanager.model.User;
 import com.pillpackclone.familymanager.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +33,7 @@ public class UserService {
 
     public User findUserById(Long id){
         return userRepository.findUserById(id)
-                .orElseThrow(() -> new UserNotFoundException("User by id " + id + "was not found"));
+                .orElseThrow(() -> new UserNotFoundException("User by id " + id + "was not found")); // ! finds user by id
     }
 
     public void deleteUser(Long id){
