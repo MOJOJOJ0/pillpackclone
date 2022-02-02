@@ -5,7 +5,7 @@
 - [ ] incomplete task 1
 - [ ] incompele task 2
 - [x] task 3
-- [ ] 
+- [x] ~task 4~
 
 <img width="750" alt="Screen Shot 2022-02-02 at 11 33 46 AM" src="https://user-images.githubusercontent.com/15316862/152207648-21a85670-35f6-4d13-a869-91471f410b56.png">
 
