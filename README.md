@@ -31,3 +31,5 @@ _You **can** combine them_
    1. Item 3b
    
 Text inside `backticks` on a line will be formatted like code.
+
+![Farmers Market Finder Demo](demo/demo.gif)
