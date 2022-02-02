@@ -1,6 +1,6 @@
 # Pill Pack Clone
 ## Option 1
-[Link to a page](https://www.http.cat/)
+[Link to a page](https://http.cat)
 - [x] task 0
 - [ ] incomplete task 1
 - [ ] incompele task 2
@@ -29,3 +29,5 @@ _You **can** combine them_
 1. Item 3
    1. Item 3a
    1. Item 3b
+   
+Text inside `backticks` on a line will be formatted like code.
