@@ -9,7 +9,7 @@
 Request Type | URL | Request Body
 ------------ | --- |-------------
 GET | /user/find/ | None
-Content in the first column | Content in the second column | Content in the third column
+POST| /user/add | New
 
 ```java
 @PutMapping("/update")
