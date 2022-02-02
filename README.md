@@ -1,6 +1,6 @@
 # Pill Pack Clone
 ## Option 1
-### Link to a page: [[http.cat]].
+[Link to a page](https://www.http.cat/)
 - [x] task 0
 - [ ] incomplete task 1
 - [ ] incompele task 2
