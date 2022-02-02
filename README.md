@@ -10,3 +10,10 @@ Request Type | URL | Request Body
 ------------ | --- |-------------
 GET | /user/find/ | None
 Content in the first column | Content in the second column | Content in the third column
+
+```java
+@PutMapping("/update")
+    public ResponseEntity<User> updateUser(@RequestBody User user) {
+        User updateUser = userService.updateUser(user);
+        return new ResponseEntity<>(updateUser, HttpStatus.OK);
+```
