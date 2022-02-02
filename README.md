@@ -11,6 +11,8 @@ Request Type | URL | Request Body
 GET | /user/find/ | None
 POST| /user/add | New
 
+Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
+
 ```java
 @PutMapping("/update")
     public ResponseEntity<User> updateUser(@RequestBody User user) {
