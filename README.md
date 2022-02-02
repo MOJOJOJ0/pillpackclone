@@ -32,4 +32,4 @@ _You **can** combine them_
    
 Text inside `backticks` on a line will be formatted like code.
 
-![Farmers Market Finder Demo](demo/demo.gif)
+![Pill Pack Clone Demo](demo/demo.gif)
