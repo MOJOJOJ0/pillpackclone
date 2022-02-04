@@ -52,22 +52,8 @@ PUT | /api/update | medsName, medsCost, insurance | updates info by id
 GET | api/find/{id} | name, email, phoneNumber, image_url | find a user by id
 DELETE | /delete/{id} | name, email, phoneNumber, image_url  | deletes a user by id
 
-Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
+## Problems
 
-_You **can** combine them_
-
-```java
-@PutMapping("/update")
-    public ResponseEntity<User> updateUser(@RequestBody User user) {
-        User updateUser = userService.updateUser(user);
-        return new ResponseEntity<>(updateUser, HttpStatus.OK);
-```
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-   
-Text inside `backticks` on a line will be formatted like code.
+Delete method throws an 500 Internal Server Error
 
 ![Pill Pack Clone Demo file structure](demo/demo.gif)
