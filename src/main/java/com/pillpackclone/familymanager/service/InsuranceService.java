@@ -2,42 +2,42 @@ package com.pillpackclone.familymanager.service;
 
 import com.pillpackclone.familymanager.exception.UserNotFoundException;
 import com.pillpackclone.familymanager.model.User;
-import com.pillpackclone.familymanager.repository.UserRepository;
+import com.pillpackclone.familymanager.repository.InsuranceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-//import java.util.UUID;
+
 
 @Service
-public class UserService {
-    private final UserRepository userRepository;
+public class InsuranceService {
+    private final InsuranceRepository insuranceRepository;
 
     @Autowired // ! to do crud ops
-    public UserService(UserRepository userRepository) {
-        this.userRepository = userRepository;
+    public InsuranceService(InsuranceRepository insuranceRepository) {
+        this.insuranceRepository = insuranceRepository;
     }
 
     public User addUser(User user) {
 //       user.setPhoneNumber(UUID.randomUUID().toString()); // ! gives a user a random ph# for id use and saves it in repo
-        return userRepository.save(user);
+        return insuranceRepository.save(user);
     }
 
     public List<User> findAllUsers() {
-        return userRepository.findAll(); // ! method to show all users in db
+        return insuranceRepository.findAll(); // ! method to show all users in db
     }
 
     public User updateUser(User user){
-        return userRepository.save(user); // ! update and save the users
+        return insuranceRepository.save(user); // ! update and save the users
     }
 
     public User findUserById(Long id){
-        return userRepository.findUserById(id)
+        return insuranceRepository.findUserById(id)
                 .orElseThrow(() -> new UserNotFoundException("User by id " + id + "was not found")); // ! finds user by id
     }
 
     public void deleteUser(Long id){
-        userRepository.deleteUserById(id); // ! method to delete the user
+        insuranceRepository.deleteUserById(id); // ! method to delete the user
     }
 
 

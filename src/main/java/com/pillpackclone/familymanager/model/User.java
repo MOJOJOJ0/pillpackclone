@@ -4,24 +4,24 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity // * this class mapped to any db
-public class User implements Serializable { // + transforms this class into different types of strings (db to json..)
+public class User implements Serializable { // ! transforms this class into different types of strings (db to json..)
     @Id // ! ENTITY NEEDS PRIMARY KEY
-    @GeneratedValue(strategy = GenerationType.AUTO) // ? how to gen this info, pass in strategy to be specific
+    @GeneratedValue(strategy = GenerationType.AUTO) // ! how to gen this info, pass in strategy to be specific
     @Column(nullable = false, updatable = false)
     private Long id;
     private String name;
     private String email;
     @Column(nullable = false, updatable = false) // ! once set cannot be updated
     private String phoneNumber;
-    private String imageUrl;
+    //private String imageUrl;
 
     public User() {}
 
-    public User(String name, String email, String phoneNumber, String imageUrl) {
+    public User(String name, String email, String phoneNumber) {
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
-        this.imageUrl = imageUrl;
+        //this.imageUrl = imageUrl;
     }
 
     public Long getId() {
@@ -56,13 +56,13 @@ public class User implements Serializable { // + transforms this class into diff
         this.phoneNumber = phoneNumber;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
-    }
+//    public String getImageUrl() {
+//        return imageUrl;
+//    }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
-    }
+//    public void setImageUrl(String imageUrl) {
+//        this.imageUrl = imageUrl;
+//    }
 
     @Override
     public String toString() {
@@ -71,7 +71,7 @@ public class User implements Serializable { // + transforms this class into diff
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", phone='" + phoneNumber + '\'' +
-                ", imageUrl='" + imageUrl + '\'' +
+//                ", imageUrl='" + imageUrl + '\'' +
                 '}';
     }
 }
