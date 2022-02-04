@@ -65,4 +65,5 @@ Delete method throws a 500 Internal Server Error.
 - PUT
 ![updateUser](https://user-images.githubusercontent.com/15316862/152593451-e18695c1-97ee-4190-a9ae-1b6001b472c6.gif)
 
-
+## Future
+I would like to finish this project in a full capacity as per option 1 deliverables. Alos would like to implement and learn about JSON web tokens, see if I am capable of completing the bonus ideas and gain better udnertsanding of these concepts and practice more.
