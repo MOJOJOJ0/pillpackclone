@@ -1,7 +1,7 @@
 # Pill Pack Clone API
 
 ## About
-The intention was to mimic pill pack with added features that way a user is able to see all their meds, insurance info, and doctor info in an organized manner rather than using mulitple apps and websites to keep track. 
+The intention was to mimic pill pack with added features that way a user is able to see all their medications, insurance info, and doctor info in an organized manner rather than using mulitple apps and websites to keep track. 
 
 [pillpack.com](https://www.pillpack.com/)
 
