@@ -54,6 +54,6 @@ DELETE | /delete/{id} | name, email, phoneNumber, image_url  | deletes a user by
 
 ## Problems
 
-Delete method throws an 500 Internal Server Error
+Delete method throws a 500 Internal Server Error.
 
 ![Pill Pack Clone Demo file structure](demo/demo.gif)
