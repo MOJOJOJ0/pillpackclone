@@ -27,11 +27,19 @@ The intention was to mimic pill pack with added features that way a user is able
 
 - [x] As a user, I would like to see Doctors name and their contact info, including specialized care, with next appointment reminders
 
-## ERD Diagram
+## Initial ERD Diagram
 
 <img width="750" alt="Screen Shot 2022-02-02 at 11 33 46 AM" src="https://user-images.githubusercontent.com/15316862/152207648-21a85670-35f6-4d13-a869-91471f410b56.png">
 
 ## Tech Used
+
+- Java
+- Spring Boot
+- IntelliJ IDEA
+- Maven
+- MySQL
+- Postman
+- Lucidcharts
 
 ## Endpoints
 
