@@ -57,3 +57,7 @@ DELETE | /delete/{id} | name, email, phoneNumber, image_url  | deletes a user by
 Delete method throws a 500 Internal Server Error.
 
 ![Pill Pack Clone Demo file structure](demo/demo.gif)
+
+![addUser](https://user-images.githubusercontent.com/15316862/152586290-60bebc00-4fda-4683-a98f-44cea57a1755.gif)
+
+
