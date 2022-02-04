@@ -13,31 +13,30 @@ import java.util.List;
 public class InsuranceService {
     private final InsuranceRepository insuranceRepository;
 
-    @Autowired // ! to do crud ops
+    @Autowired
     public InsuranceService(InsuranceRepository insuranceRepository) {
         this.insuranceRepository = insuranceRepository;
     }
 
     public User addUser(User user) {
-//       user.setPhoneNumber(UUID.randomUUID().toString()); // ! gives a user a random ph# for id use and saves it in repo
         return insuranceRepository.save(user);
     }
 
     public List<User> findAllUsers() {
-        return insuranceRepository.findAll(); // ! method to show all users in db
+        return insuranceRepository.findAll();
     }
 
     public User updateUser(User user){
-        return insuranceRepository.save(user); // ! update and save the users
+        return insuranceRepository.save(user);
     }
 
     public User findUserById(Long id){
         return insuranceRepository.findUserById(id)
-                .orElseThrow(() -> new UserNotFoundException("User by id " + id + "was not found")); // ! finds user by id
+                .orElseThrow(() -> new UserNotFoundException("User by id " + id + "was not found"));
     }
 
     public void deleteUser(Long id){
-        insuranceRepository.deleteUserById(id); // ! method to delete the user
+        insuranceRepository.deleteUserById(id);
     }
 
 
