@@ -1,14 +1,9 @@
 package com.pillpackclone.familymanager.controller;
 
-import com.pillpackclone.familymanager.exception.UserNotFoundException;
 import com.pillpackclone.familymanager.model.User;
 import com.pillpackclone.familymanager.service.UserService;
-import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-//import org.springframework.web.bind.annotation.GetMapping;
-//import org.springframework.web.bind.annotation.RequestMapping;
-//import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
