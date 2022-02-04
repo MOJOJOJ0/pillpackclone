@@ -56,13 +56,13 @@ DELETE | /delete/{id} | name, email, phoneNumber, image_url  | deletes a user by
 
 Delete method throws a 500 Internal Server Error.
 
-- GET
+- GET (shows all users)
 ![getUsers](https://user-images.githubusercontent.com/15316862/152591017-7e5f5c37-2539-44f6-bb34-ee0075e2154e.gif)
-- POST
+- POST (creates new user)
 ![add user demo](https://user-images.githubusercontent.com/15316862/152586290-60bebc00-4fda-4683-a98f-44cea57a1755.gif)
-- GET (find)
+- GET (finds user by id)
 ![findUser](https://user-images.githubusercontent.com/15316862/152591957-498fa1a8-2858-4cda-aafa-41d8f7dc64d1.gif)
-- PUT
+- PUT (updates info by id)
 ![updateUser](https://user-images.githubusercontent.com/15316862/152593451-e18695c1-97ee-4190-a9ae-1b6001b472c6.gif)
 
 ## Future, Unsolved Problems, and Major Hurdles 
