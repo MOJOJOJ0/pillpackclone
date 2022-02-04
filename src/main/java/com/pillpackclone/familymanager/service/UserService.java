@@ -7,37 +7,35 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-//import java.util.UUID;
 
 @Service
 public class UserService {
     private final UserRepository userRepository;
 
-    @Autowired // ! to do crud ops
+    @Autowired
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
     public User addUser(User user) {
-//       user.setPhoneNumber(UUID.randomUUID().toString()); // ! gives a user a random ph# for id use and saves it in repo
         return userRepository.save(user);
     }
 
     public List<User> findAllUsers() {
-        return userRepository.findAll(); // ! method to show all users in db
+        return userRepository.findAll();
     }
 
     public User updateUser(User user){
-        return userRepository.save(user); // ! update and save the users
+        return userRepository.save(user);
     }
 
     public User findUserById(Long id){
         return userRepository.findUserById(id)
-                .orElseThrow(() -> new UserNotFoundException("User by id " + id + "was not found")); // ! finds user by id
+                .orElseThrow(() -> new UserNotFoundException("User by id " + id + "was not found"));
     }
 
     public String deleteUser(Long id){
-        userRepository.deleteUserById(id); // ! method to delete the user
+        userRepository.deleteUserById(id);
         return null;
     }
 
