@@ -60,5 +60,7 @@ Delete method throws a 500 Internal Server Error.
 ![getUsers](https://user-images.githubusercontent.com/15316862/152591017-7e5f5c37-2539-44f6-bb34-ee0075e2154e.gif)
 - POST
 ![add user demo](https://user-images.githubusercontent.com/15316862/152586290-60bebc00-4fda-4683-a98f-44cea57a1755.gif)
+- GET (find)
+![findUser](https://user-images.githubusercontent.com/15316862/152591957-498fa1a8-2858-4cda-aafa-41d8f7dc64d1.gif)
 
 
