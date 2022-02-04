@@ -11,9 +11,8 @@ public class User implements Serializable {
     private Long id;
     private String name;
     private String email;
-    @Column(nullable = false, updatable = false) 
+    @Column(nullable = false, updatable = false)
     private String phoneNumber;
-    //private String imageUrl;
 
     public User() {}
 
@@ -21,7 +20,6 @@ public class User implements Serializable {
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
-        //this.imageUrl = imageUrl;
     }
 
     public Long getId() {
