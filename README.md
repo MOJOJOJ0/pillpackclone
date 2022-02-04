@@ -6,10 +6,7 @@ The intention was to mimic pillpack.com with added features that way a user will
 [pillpack.com](https://www.pillpack.com/)
 
 ## User Stories
-- [x] task 0
-- [ ] incomplete task 1
 - [ ] incompele task 2
-- [x] task 3
 - [x] ~task 4~
 
 - [ ] As a user, I would like to view a list of vaccines available.
