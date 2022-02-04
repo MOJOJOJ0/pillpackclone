@@ -5,28 +5,30 @@ The intention was to mimic pillpack.com with added features that way a user will
 
 [pillpack.com](https://www.pillpack.com/)
 
+## User Stories
 - [x] task 0
 - [ ] incomplete task 1
 - [ ] incompele task 2
 - [x] task 3
 - [x] ~task 4~
-- [ ] - As a user, I would like to view a list of vaccines available.
 
-- As a user, I would like to view details of a specific vaccine side-effects according to user specific co-morbidities.
+- [ ] As a user, I would like to view a list of vaccines available.
 
-- As a user, I would like to log in, manage a family account (a la epic and kinsa style)
+- [ ] As a user, I would like to view details of a specific vaccine side-effects according to user specific co-morbidities.
 
-- As a user, I would like to add / delete family members.
+- [ ] As a user, I would like to log in, manage a family account (a la epic and kinsa style)
 
-- As a user, I would like to update medications.
+- [ ] As a user, I would like to add / delete family members.
 
-- As a user, I would like to keep track of insurance coverage and individual medication cost.
+- [ ] As a user, I would like to update medications.
 
-- A user can have an admin role or user role.
+- [ ] As a user, I would like to keep track of insurance coverage and individual medication cost.
 
-- As a user, keep track of health stats from various health tracking devices....... (optional) ...........(fitbit, oura, apple watch, kinsa thermometers, food logging info)
+- [ ] A user can have an admin role or user role.
 
-- As a user, I would like to see DR.'s name and contact info, specialized care dr's, appt reminders 
+- [ ] As a user, keep track of health stats from various health tracking devices....... (optional) ...........(fitbit, oura, apple watch, kinsa thermometers, food      logging info)
+
+- [ ] As a user, I would like to see DR.'s name and contact info, specialized care dr's, appt reminders 
 
 
 <img width="750" alt="Screen Shot 2022-02-02 at 11 33 46 AM" src="https://user-images.githubusercontent.com/15316862/152207648-21a85670-35f6-4d13-a869-91471f410b56.png">
