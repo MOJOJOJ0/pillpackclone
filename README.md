@@ -40,13 +40,17 @@ The intention was to mimic pill pack with added features that way a user is able
 - MySQL
 - Postman
 - Lucidcharts
+- HTTPie
 
 ## Endpoints
 
-Request Type | URL | Request Body
------------- | --- |-------------
-GET | /user/find/ | None
-POST| /user/add | New
+Request Type | URL | Request Body | Description
+------------ | --- |--------------|-----------------
+GET | /api/users | name, email, phoneNumber, image_url | shows all users
+POST | /api/add | name, email, phoneNumber, image_url | creates new user
+PUT | /api/update | medsName, medsCost, insurance | updates info by id
+GET | api/find/{id} | name, email, phoneNumber, image_url | find a user by id
+DELETE | /delete/{id} | name, email, phoneNumber, image_url  | deletes a user by id
 
 Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
 
