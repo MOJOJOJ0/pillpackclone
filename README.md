@@ -1,7 +1,7 @@
 # Pill Pack Clone API
 
 ## About
-The intention was to mimic pill pack with added features that way a user is able to see all their medications, insurance info, and doctors info in an organized manner rather than using mulitple apps and websites to keep track. The average person can use this as a PWA (progressive web apps) on their phones or on a desktop.
+The intention was to mimic pill pack with added features that way a user is able to see all their medications, insurance info, and doctors info in an organized manner rather than using mulitple apps and websites to keep track. Since we are living through a major pandemic, vaccine info is vital, initially wanted a user to keep track of their doses but scratched that idea due to complexity. The average person can use this as a PWA (progressive web apps) on their phones or on a desktop.
 
 [pillpack.com](https://www.pillpack.com/)
 
