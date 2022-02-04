@@ -1,4 +1,4 @@
-package com.pillpackclone.familymanager;
+package com.pillpackclone.familymanager.controller;
 
 import com.pillpackclone.familymanager.model.User;
 import com.pillpackclone.familymanager.service.UserService;
@@ -12,15 +12,15 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/user")
-public class UserResource {
+@RequestMapping("/api")
+public class UserController {
     private final UserService userService;
 
-    public UserResource(UserService userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 
-    @GetMapping("/all") // ! first method in this class, returns all users, get request
+    @GetMapping("/users") // ! first method in this class, returns all users, get request
     public ResponseEntity<List<User>> getAllUsers () { // ! http response, spring class, generic
         List<User> users = userService.findAllUsers();
         return new ResponseEntity<>(users, HttpStatus.OK); // ! get 200 response
