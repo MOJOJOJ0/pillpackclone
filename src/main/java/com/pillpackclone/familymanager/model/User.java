@@ -54,13 +54,6 @@ public class User implements Serializable {
         this.phoneNumber = phoneNumber;
     }
 
-//    public String getImageUrl() {
-//        return imageUrl;
-//    }
-
-//    public void setImageUrl(String imageUrl) {
-//        this.imageUrl = imageUrl;
-//    }
 
     @Override
     public String toString() {
@@ -69,7 +62,6 @@ public class User implements Serializable {
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", phone='" + phoneNumber + '\'' +
-//                ", imageUrl='" + imageUrl + '\'' +
                 '}';
     }
 }
