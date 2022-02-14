@@ -1,7 +1,7 @@
 # Pill Pack Clone API
 
 ## About
-The intention was to mimic [pillpack.com](https://www.pillpack.com/) with added features that way a user is able to see all their medications, insurance info, and doctors info in an organized manner rather than using mulitple apps and websites to keep track. Since we are also living through a major pandemic, vaccine info is vital, initially wanted a user to keep track of their vaccine doses not just covid but for flu, hpv, measles etc. but scratched that idea due to added layers of complexity. The average person can use this as a PWA (progressive web apps) on their phones and/or on their desktop.
+The intention was to mimic [pillpack.com](https://www.pillpack.com/) with added features that way a user is able to see all their medications, insurance info, and doctors info in an organized manner rather than using mulitple apps and websites to keep track. Since we are also living through a major pandemic, vaccine info is vital, initially wanted a user to keep track of their vaccine doses, not just covid but for flu, hpv, measles etc. but scratched that idea due to added layers of complexity. The average person can use this as a PWA (progressive web apps) on their phones and/or on their desktop.
 
 
 ## User Stories
@@ -33,7 +33,6 @@ The intention was to mimic [pillpack.com](https://www.pillpack.com/) with added 
 - Java
 - Spring Boot
 - IntelliJ IDEA
-- Maven
 - MySQL
 - Postman
 - Lucidcharts
@@ -43,11 +42,11 @@ The intention was to mimic [pillpack.com](https://www.pillpack.com/) with added 
 
 Request Type | URL | Request Body | Description
 ------------ | --- |--------------|-----------------
-GET | /api/users | name, email, phoneNumber, image_url | shows all users
-POST | /api/add | name, email, phoneNumber, image_url | creates new user
+GET | /api/all | name, email, phoneNumber | shows all users
+POST | /api/add | name, email, phoneNumber| creates new user
 PUT | /api/update | medsName, medsCost, insurance | updates info by id
-GET | api/find/{id} | name, email, phoneNumber, image_url | find a user by id
-DELETE | /delete/{id} | name, email, phoneNumber, image_url  | deletes a user by id
+GET | /api/find/{id} | name, email, phoneNumber | find a user by id
+DELETE | /api/all/delete/{id} | name, email, phoneNumber  | deletes a user by id
 
 ## Problems
 
